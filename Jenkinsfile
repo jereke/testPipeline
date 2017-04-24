@@ -9,7 +9,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        input(message: 'seguir', id: 'seguir', ok: 'si')
+        input(message: 'seguir', id: 'seguir', ok: 'tira pa lante')
       }
     }
   }
