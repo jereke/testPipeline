@@ -11,6 +11,7 @@ pipeline {
       steps {
         echo 'holaaaa'
         sleep 10
+        input(message: 'tiro pa lante?', id: 'tirar', ok: 'si', submitter: 'pepe')
       }
     }
   }
