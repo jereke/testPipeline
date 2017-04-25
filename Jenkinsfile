@@ -10,6 +10,7 @@ pipeline {
     stage('test2') {
       steps {
         echo 'holaaaa'
+        sleep 10
       }
     }
   }
