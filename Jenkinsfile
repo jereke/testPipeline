@@ -12,5 +12,10 @@ pipeline {
         input(message: 'seguir', id: 'seguir', ok: 'tira pa lante')
       }
     }
+    stage('test2') {
+      steps {
+        echo 'holaaaa'
+      }
+    }
   }
 }
